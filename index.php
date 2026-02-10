@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="description" content="Website project Erin Fajrin Nugraha - Software Engineer">
     <meta name="author" content="Devcrud">
     <title>KOKODINGAN</title>
     <!-- font icons -->
