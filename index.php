@@ -7,6 +7,10 @@
     <meta name="description" content="Website project Erin Fajrin Nugraha - Software Engineer">
     <meta name="author" content="Devcrud">
     <title>KOKODINGAN</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/IlustrasiMe2.png">
+
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
