@@ -96,7 +96,7 @@
     <section class="section" id="service">
         <div class="container text-center">
             <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
+            <h6 class="section-title mb-6">Service Yang Saya Berikan</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
@@ -151,7 +151,7 @@
     <section class="section" id="portfolio">
         <div class="container text-center">
             <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
+            <h6 class="section-title mb-6">Project Yang Telah Saya Kerjakan</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
@@ -185,6 +185,45 @@
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Sistem Pencatatan Desa</h4>
+                                <p class="font-weight-normal">Category: Web Development</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://produksi-kue-001.erinfn.my.id/" class="portfolio-card">
+                        <img src="assets/imgs/produksi-kue.png" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Produksi Kue</h4>
+                                <p class="font-weight-normal">Category: Web Development</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://ca.erinfn.my.id/" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Absensi-SMP.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Absensi SMP</h4>
+                                <p class="font-weight-normal">Category: Web Development</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://https://alam-tasikmalaya.erinfn.my.id/" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Virtual-Tour.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Virtual Tour 360</h4>
                                 <p class="font-weight-normal">Category: Web Development</p>
                             </span>
                         </span>
