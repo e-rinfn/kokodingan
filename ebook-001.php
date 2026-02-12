@@ -86,83 +86,84 @@
         </div><!-- end of container -->
     </section> <!-- end of about section -->
 
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-start">
+            <h6 class="section-title mb-5">Pengguna Pada Sistem</h6>
 
+            <!-- User Biasa -->
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h3>1. User Biasa</h3>
+                    <p>
+                        User biasa adalah pengguna umum yang memanfaatkan website untuk membaca eBook.
+                        Fitur yang tersedia bagi user biasa meliputi:
+                    </p>
 
-    <section id="aktor-sistem" class="container my-5">
-        <h2 class="text-center mb-3">Aktor Sistem</h2>
+                    <h5 class="mt-4">🔎 Pencarian eBook</h5>
+                    <p>Pengguna dapat mencari buku berdasarkan:</p>
+                    <ul>
+                        <li>Judul</li>
+                        <li>Nama penulis</li>
+                        <li>Kategori</li>
+                        <li>Kata kunci tertentu</li>
+                    </ul>
+                    <p>
+                        Fitur pencarian membantu pengguna menemukan buku dengan cepat dan efisien.
+                    </p>
 
-        <!-- User Biasa -->
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-                <h3>1. User Biasa</h3>
-                <p>
-                    User biasa adalah pengguna umum yang memanfaatkan website untuk membaca eBook.
-                    Fitur yang tersedia bagi user biasa meliputi:
-                </p>
+                    <h5 class="mt-4">📖 Melihat Detail eBook</h5>
+                    <p>User dapat melihat informasi lengkap dari sebuah eBook, seperti:</p>
+                    <ul>
+                        <li>Judul buku</li>
+                        <li>Penulis</li>
+                        <li>Kategori</li>
+                        <li>Deskripsi / Sinopsis</li>
+                        <li>Cover buku</li>
+                        <li>Informasi tambahan lainnya</li>
+                    </ul>
 
-                <h5 class="mt-4">🔎 Pencarian eBook</h5>
-                <p>Pengguna dapat mencari buku berdasarkan:</p>
-                <ul>
-                    <li>Judul</li>
-                    <li>Nama penulis</li>
-                    <li>Kategori</li>
-                    <li>Kata kunci tertentu</li>
-                </ul>
-                <p>
-                    Fitur pencarian membantu pengguna menemukan buku dengan cepat dan efisien.
-                </p>
-
-                <h5 class="mt-4">📖 Melihat Detail eBook</h5>
-                <p>User dapat melihat informasi lengkap dari sebuah eBook, seperti:</p>
-                <ul>
-                    <li>Judul buku</li>
-                    <li>Penulis</li>
-                    <li>Kategori</li>
-                    <li>Deskripsi / Sinopsis</li>
-                    <li>Cover buku</li>
-                    <li>Informasi tambahan lainnya</li>
-                </ul>
-
-                <h5 class="mt-4">📚 Membaca eBook</h5>
-                <p>
-                    User dapat membaca eBook secara langsung melalui website tanpa perlu mengunduh file.
-                    Sistem dapat menampilkan eBook dalam format PDF viewer atau reader online
-                    agar nyaman digunakan.
-                </p>
+                    <h5 class="mt-4">📚 Membaca eBook</h5>
+                    <p>
+                        User dapat membaca eBook secara langsung melalui website tanpa perlu mengunduh file.
+                        Sistem dapat menampilkan eBook dalam format PDF viewer atau reader online
+                        agar nyaman digunakan.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Admin -->
-        <div class="card shadow-sm">
-            <div class="card-body">
-                <h3>2. Admin</h3>
-                <p>
-                    Admin bertanggung jawab dalam pengelolaan konten dan data yang ada di dalam sistem.
-                    Admin memiliki hak akses penuh terhadap manajemen eBook dan kategori.
-                </p>
+            <!-- Admin -->
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3>2. Admin</h3>
+                    <p>
+                        Admin bertanggung jawab dalam pengelolaan konten dan data yang ada di dalam sistem.
+                        Admin memiliki hak akses penuh terhadap manajemen eBook dan kategori.
+                    </p>
 
-                <h5 class="mt-4">📘 Manajemen eBook (CRUD)</h5>
-                <p>Admin dapat:</p>
-                <ul>
-                    <li>Menambahkan eBook baru (upload file, cover, isi data buku)</li>
-                    <li>Mengubah data eBook (judul, deskripsi, kategori, dll.)</li>
-                    <li>Menghapus eBook dari sistem</li>
-                </ul>
-                <p>
-                    Fitur ini memastikan koleksi buku selalu terupdate dan relevan.
-                </p>
+                    <h5 class="mt-4">📘 Manajemen eBook (CRUD)</h5>
+                    <p>Admin dapat:</p>
+                    <ul>
+                        <li>Menambahkan eBook baru (upload file, cover, isi data buku)</li>
+                        <li>Mengubah data eBook (judul, deskripsi, kategori, dll.)</li>
+                        <li>Menghapus eBook dari sistem</li>
+                    </ul>
+                    <p>
+                        Fitur ini memastikan koleksi buku selalu terupdate dan relevan.
+                    </p>
 
-                <h5 class="mt-4">🗂️ Manajemen Kategori (CRUD)</h5>
-                <p>Admin juga dapat mengelola kategori buku, meliputi:</p>
-                <ul>
-                    <li>Menambahkan kategori baru</li>
-                    <li>Mengubah nama kategori</li>
-                    <li>Menghapus kategori</li>
-                </ul>
-                <p>
-                    Dengan adanya pengelolaan kategori, sistem menjadi lebih terstruktur
-                    dan memudahkan proses pencarian buku oleh user.
-                </p>
+                    <h5 class="mt-4">🗂️ Manajemen Kategori (CRUD)</h5>
+                    <p>Admin juga dapat mengelola kategori buku, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan kategori baru</li>
+                        <li>Mengubah nama kategori</li>
+                        <li>Menghapus kategori</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan kategori, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian buku oleh user.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
