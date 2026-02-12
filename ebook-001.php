@@ -51,7 +51,7 @@
     <!-- page header -->
     <header id="home" class="header">
         <div class="overlay"></div>
-        <div class="header-content container text-center">
+        <div class="header-content container">
             <h1 class="header-title">
                 <span class="down" style="font-size: 2.5rem;">Sistem E-Book SMP</span>
             </h1>
@@ -171,88 +171,95 @@
     <!-- portfolio section -->
     <section class="section" id="gambar">
         <div class="container text-center">
-            <h6 class="section-title mb-6">Gambar</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://ebook-001.erinfn.my.id/" class="portfolio-card">
-                        <img src="assets/imgs/E-Book.png" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Website E-Book</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            <h6 class="section-title mb-6">Gambar Screenshot Sistem</h6>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">User Biasa Landing Page</h5>
+                    <img src="assets/imgs/ebook-001/user-biasa-landing.png" alt="Screenshot Sistem E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-                <div class="col-md-4">
-                    <a href="https://inventaris-001.erinfn.my.id/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/inventaris.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Inventaris Barang</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">User Biasa Fitur Pencarian E-Book</h5>
+                    <img src="assets/imgs/ebook-001/user-biasa-filter.png" alt="Screenshot Fitur Pencarian" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-                <div class="col-md-4">
-                    <a href="https://sikdes-001.erinfn.my.id/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/sikdes.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Sistem Pencatatan Desa</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">User Biasa Detail E-Book</h5>
+                    <img src="assets/imgs/ebook-001/user-biasa-detail.png" alt="Screenshot Detail eBook" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-            </div><!-- end of row -->
-            <br>`
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://produksi-kue-001.erinfn.my.id/" class="portfolio-card">
-                        <img src="assets/imgs/produksi-kue.png" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Produksi Kue</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">User Biasa Baca E-Book</h5>
+                    <img src="assets/imgs/ebook-001/user-biasa-baca.png" alt="Screenshot Baca eBook" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-                <div class="col-md-4">
-                    <a href="https://ca.erinfn.my.id/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Absensi-SMP.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Absensi SMP</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            </div>
+
+            <hr>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Login</h5>
+                    <img src="assets/imgs/ebook-001/admin-login.png" alt="Screenshot Admin Login" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-                <div class="col-md-4">
-                    <a href="https://alam-tasikmalaya.erinfn.my.id/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Virtual-Tour.png" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Virtual Tour 360</h4>
-                                <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Landing Page</h5>
+                    <img src="assets/imgs/ebook-001/admin-landing.png" alt="Screenshot Admin Landing Page" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
                 </div>
-            </div><!-- end of row -->
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Daftar E-Book</h5>
+                    <img src="assets/imgs/ebook-001/admin-daftar-ebook.png" alt="Screenshot Admin Daftar E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Tambah E-Book</h5>
+                    <img src="assets/imgs/ebook-001/admin-tambah-ebook.png" alt="Screenshot Admin Tambah E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Ubah E-Book</h5>
+                    <img src="assets/imgs/ebook-001/admin-edit-ebook.png" alt="Screenshot Admin Ubah E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Daftar Kategori</h5>
+                    <img src="assets/imgs/ebook-001/admin-daftar-kategori.png" alt="Screenshot Admin Daftar Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Tambah Kategori</h5>
+                    <img src="assets/imgs/ebook-001/admin-tambah-kategori.png" alt="Screenshot Admin Tambah Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h5 class="mb-2">Admin Ubah Kategori</h5>
+                    <img src="assets/imgs/ebook-001/admin-edit-kategori.png" alt="Screenshot Admin Ubah Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+                </div>
+            </div>
+
+            <!-- Tambahkan screenshot lain sesuai kebutuhan -->
         </div><!-- end of container -->
-
-
     </section> <!-- end of portfolio section -->
 
     <!-- contact section -->
