@@ -72,14 +72,10 @@
                 </div>
                 <div class="about-caption">
                     <h2 class="section-title mb-3">Deskripsi</h2>
-                    <p>
+                    <p class="text-start">
                         Website eBook merupakan sistem berbasis web yang dirancang untuk memudahkan pengguna dalam mencari, membaca,
                         dan mengelola buku digital secara online. Sistem ini memiliki dua jenis aktor utama, yaitu User Biasa dan Admin,
                         dengan hak akses dan fungsi yang berbeda sesuai perannya.
-                    </p>
-                    <p>
-                        Website ini bertujuan untuk menyediakan platform digital yang terstruktur, mudah digunakan, serta efisien
-                        dalam pengelolaan koleksi buku elektronik.
                     </p>
                 </div>
             </div><!-- end of about wrapper -->
@@ -89,7 +85,24 @@
     <!-- contact section -->
     <section class="section" id="contact">
         <div class="container text-start">
-            <h6 class="section-title mb-5">Pengguna Pada Sistem</h6>
+            <h6 class="section-title mb-5">Fitur Pada Sistem</h6>
+
+            <!-- User Biasa -->
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h3>Tujuan</h3>
+                    <p>
+                        Tujuan dari sistem eBook ini adalah untuk menyediakan platform yang mudah diakses bagi pengguna
+                        untuk mencari, membaca, dan mengelola buku digital. Sistem ini bertujuan untuk:
+                    </p>
+                    <ul>
+                        <li>Mempermudah akses membaca buku digital</li>
+                        <li>Menyediakan sistem manajemen buku yang terorganisir</li>
+                        <li>Mendukung digitalisasi literasi</li>
+                        <li>Memberikan pengalaman membaca yang praktis dan efisien</li>
+                    </ul>
+                </div>
+            </div>
 
             <!-- User Biasa -->
             <div class="card mb-4 shadow-sm">
@@ -172,94 +185,222 @@
     <section class="section" id="gambar">
         <div class="container text-center">
             <h6 class="section-title mb-6">Gambar Screenshot Sistem</h6>
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">User Biasa Landing Page</h5>
-                    <img src="assets/imgs/ebook-001/user-biasa-landing.png" alt="Screenshot Sistem E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
+            <ul class="nav nav-tabs justify-content-center mb-4" id="screenshotTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop" aria-selected="true">Desktop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">Mobile</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="screenshotTabContent">
+
+                <!-- Screenshot Desktop -->
+                <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop-tab">
+                    <!-- Screenshot desktop di sini -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Landing Page</h5>
+                            <img src="assets/imgs/ebook-001/user-biasa-landing.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/user-biasa-landing.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Fitur Pencarian E-Book</h5>
+                            <img src="assets/imgs/ebook-001/user-biasa-filter.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/user-biasa-filter.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Detail E-Book</h5>
+                            <img src="assets/imgs/ebook-001/user-biasa-detail.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/user-biasa-detail.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Baca E-Book</h5>
+                            <img src="assets/imgs/ebook-001/user-biasa-baca.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/user-biasa-baca.png">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Login</h5>
+                            <img src="assets/imgs/ebook-001/admin-login.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-login.png">
+                        </div>
+                    </div>
+
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Landing Page</h5>
+                            <img src="assets/imgs/ebook-001/admin-landing.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-landing.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Daftar E-Book</h5>
+                            <img src="assets/imgs/ebook-001/admin-daftar-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-daftar-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Tambah E-Book</h5>
+                            <img src="assets/imgs/ebook-001/admin-tambah-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-tambah-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Ubah E-Book</h5>
+                            <img src="assets/imgs/ebook-001/admin-edit-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-edit-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Daftar Kategori</h5>
+                            <img src="assets/imgs/ebook-001/admin-daftar-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-daftar-kategori.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Tambah Kategori</h5>
+                            <img src="assets/imgs/ebook-001/admin-tambah-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-tambah-kategori.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Ubah Kategori</h5>
+                            <img src="assets/imgs/ebook-001/admin-edit-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/admin-edit-kategori.png">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot Mobile -->
+                <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+                    <!-- Screenshot mobile di sini -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Landing</h5>
+                            <img src="assets/imgs/ebook-001/mobile-user-biasa-landing.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-user-biasa-landing.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Filter E-Book</h5>
+                            <img src="assets/imgs/ebook-001/mobile-user-biasa-filter.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-user-biasa-filter.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Detail E-Book</h5>
+                            <img src="assets/imgs/ebook-001/mobile-user-biasa-detail.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-user-biasa-detail.png">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">User Biasa Fitur Pencarian E-Book</h5>
-                    <img src="assets/imgs/ebook-001/user-biasa-filter.png" alt="Screenshot Fitur Pencarian" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">User Biasa Detail E-Book</h5>
-                    <img src="assets/imgs/ebook-001/user-biasa-detail.png" alt="Screenshot Detail eBook" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">User Biasa Baca E-Book</h5>
-                    <img src="assets/imgs/ebook-001/user-biasa-baca.png" alt="Screenshot Baca eBook" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Login</h5>
-                    <img src="assets/imgs/ebook-001/admin-login.png" alt="Screenshot Admin Login" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Landing Page</h5>
-                    <img src="assets/imgs/ebook-001/admin-landing.png" alt="Screenshot Admin Landing Page" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Daftar E-Book</h5>
-                    <img src="assets/imgs/ebook-001/admin-daftar-ebook.png" alt="Screenshot Admin Daftar E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Tambah E-Book</h5>
-                    <img src="assets/imgs/ebook-001/admin-tambah-ebook.png" alt="Screenshot Admin Tambah E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Ubah E-Book</h5>
-                    <img src="assets/imgs/ebook-001/admin-edit-ebook.png" alt="Screenshot Admin Ubah E-Book" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Daftar Kategori</h5>
-                    <img src="assets/imgs/ebook-001/admin-daftar-kategori.png" alt="Screenshot Admin Daftar Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Tambah Kategori</h5>
-                    <img src="assets/imgs/ebook-001/admin-tambah-kategori.png" alt="Screenshot Admin Tambah Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h5 class="mb-2">Admin Ubah Kategori</h5>
-                    <img src="assets/imgs/ebook-001/admin-edit-kategori.png" alt="Screenshot Admin Ubah Kategori" class="img-fluid rounded shadow mb-4" style="border: 2px solid #000;">
-                </div>
-            </div>
-
-            <!-- Tambahkan screenshot lain sesuai kebutuhan -->
-        </div><!-- end of container -->
+        </div>
     </section> <!-- end of portfolio section -->
 
     <!-- contact section -->
@@ -310,6 +451,26 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
+
+    <!-- Modal untuk preview gambar -->
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body text-center p-0">
+                    <img id="modalImage" src="" class="img-fluid rounded" style="max-height:90vh;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#imgModal').on('show.bs.modal', function(event) {
+            var img = $(event.relatedTarget);
+            var src = img.data('img');
+            var modal = $(this);
+            modal.find('#modalImage').attr('src', src);
+        });
+    </script>
 
 </body>
 
