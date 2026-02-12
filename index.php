@@ -69,7 +69,7 @@
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/IlustrasiMe.png" class="about-img" style="border: 2px solid #ffffff;"
+                    <img src="assets/imgs/Ilustrasi.png" class="about-img" style="border: 2px solid #ffffff;"
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                 </div>
                 <div class="about-caption">
