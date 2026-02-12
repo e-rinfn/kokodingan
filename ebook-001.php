@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Website project Erin Fajrin Nugraha - Software Engineer">
     <meta name="author" content="Devcrud">
-    <title>KOKODINGAN</title>
+    <title>DESKRIPSI WEBSITE</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/imgs/IlustrasiMe2.png">
@@ -28,10 +28,10 @@
                     <a class="link" href="#home">Home</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#about">About</a>
+                    <a class="link" href="#deskripsi">Deskripsi</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
+                    <a class="link" href="#gambar">Gambar</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
@@ -51,122 +51,130 @@
     <!-- page header -->
     <header id="home" class="header">
         <div class="overlay"></div>
-        <div class="header-content container">
+        <div class="header-content container text-center">
             <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down" style="font-size: 2.5rem;">I am Erin Fajrin Nugraha</span>
+                <span class="down" style="font-size: 2.5rem;">Sistem E-Book SMP</span>
             </h1>
-            <p class="header-subtitle">SOFTWARE ENGINEER</p>
-
-            <!-- <button class="btn btn-primary">Visit My Works</button> -->
+            <a href="index.php#portfolio" class="btn btn-secondary">Kembali</a>
+            <a href="https://ebook-001.erinfn.my.id/" class="btn btn-primary" target="_blank">Demo Sistem</a>
         </div>
     </header><!-- end of page header -->
 
     <!-- about section -->
-    <section class="section pt-0" id="about">
+    <section class="section pt-0" id="deskripsi">
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/IlustrasiMe.png" class="about-img" style="border: 2px solid #ffffff;"
+                    <img src="assets/imgs/E-Book.png" class="about-img" style="border: 2px solid #ffffff;"
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                 </div>
                 <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
+                    <h2 class="section-title mb-3">Deskripsi</h2>
                     <p>
-                        Halo! Saya seorang pengembang website yang berfokus pada pembuatan solusi digital kreatif. Mulai
-                        dari membangun tampilan yang menarik hingga mengembangkan sistem yang handal, tujuan saya adalah
-                        membantu bisnis dan individu memiliki website yang fungsional, responsif, dan mudah digunakan.
-                        <br>
-                        <br>
-                        Saya percaya bahwa sebuah website tidak hanya harus bekerja dengan baik, tetapi juga mampu
-                        memberikan pengalaman yang menyenangkan bagi pengguna. Karena itu, saya selalu menambahkan sentuhan
-                        personal pada setiap proyek, agar hasilnya bukan hanya menarik secara visual, tetapi juga selaras
-                        dengan identitas dan pesan yang ingin disampaikan.
+                        Website eBook merupakan sistem berbasis web yang dirancang untuk memudahkan pengguna dalam mencari, membaca,
+                        dan mengelola buku digital secara online. Sistem ini memiliki dua jenis aktor utama, yaitu User Biasa dan Admin,
+                        dengan hak akses dan fungsi yang berbeda sesuai perannya.
                     </p>
-                    <!-- <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button> -->
+                    <p>
+                        Website ini bertujuan untuk menyediakan platform digital yang terstruktur, mudah digunakan, serta efisien
+                        dalam pengelolaan koleksi buku elektronik.
+                    </p>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
 
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service Yang Saya Berikan</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pencil-case.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Desain Website</h6>
-                            <p class="subtitle">Desain website yang modern dan berkualitas untuk memberikan pengalaman terbaik bagi pengguna</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/responsive.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Pengembangan</h6>
-                            <p class="subtitle">Pengembangan website yang responsif dan fungsional untuk memenuhi kebutuhan bisnis Anda</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Sistem Analis</h6>
-                            <p class="subtitle">Melakukan analisis sistem secara mendalam untuk memastikan solusi teknologi yang tepat dan efektif</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Pemeliharaan</h6>
-                            <p class="subtitle">Pemeliharaan website yang handal untuk memastikan kinerja optimal dan keamanan data Anda</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
 
-    <!-- service section -->
-    <section class="section" id="server">
-        <div class="container text-center">
-            <p class="section-subtitle">Datacenter ?</p>
-            <h6 class="section-title mb-0">Server Yang Saya Gunakan</h6>
-            <div class="container text-center mt-0">
-                <img src="assets/imgs/datacenter-erinfn.png" alt="Portfolio Banner" class="img-fluid rounded" style="max-width: 100%; height: auto;">
+
+    <section id="aktor-sistem" class="container my-5">
+        <h2 class="text-center mb-3">Aktor Sistem</h2>
+
+        <!-- User Biasa -->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h3>1. User Biasa</h3>
+                <p>
+                    User biasa adalah pengguna umum yang memanfaatkan website untuk membaca eBook.
+                    Fitur yang tersedia bagi user biasa meliputi:
+                </p>
+
+                <h5 class="mt-4">🔎 Pencarian eBook</h5>
+                <p>Pengguna dapat mencari buku berdasarkan:</p>
+                <ul>
+                    <li>Judul</li>
+                    <li>Nama penulis</li>
+                    <li>Kategori</li>
+                    <li>Kata kunci tertentu</li>
+                </ul>
+                <p>
+                    Fitur pencarian membantu pengguna menemukan buku dengan cepat dan efisien.
+                </p>
+
+                <h5 class="mt-4">📖 Melihat Detail eBook</h5>
+                <p>User dapat melihat informasi lengkap dari sebuah eBook, seperti:</p>
+                <ul>
+                    <li>Judul buku</li>
+                    <li>Penulis</li>
+                    <li>Kategori</li>
+                    <li>Deskripsi / Sinopsis</li>
+                    <li>Cover buku</li>
+                    <li>Informasi tambahan lainnya</li>
+                </ul>
+
+                <h5 class="mt-4">📚 Membaca eBook</h5>
+                <p>
+                    User dapat membaca eBook secara langsung melalui website tanpa perlu mengunduh file.
+                    Sistem dapat menampilkan eBook dalam format PDF viewer atau reader online
+                    agar nyaman digunakan.
+                </p>
             </div>
         </div>
-    </section><!-- end of service section -->
+
+        <!-- Admin -->
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3>2. Admin</h3>
+                <p>
+                    Admin bertanggung jawab dalam pengelolaan konten dan data yang ada di dalam sistem.
+                    Admin memiliki hak akses penuh terhadap manajemen eBook dan kategori.
+                </p>
+
+                <h5 class="mt-4">📘 Manajemen eBook (CRUD)</h5>
+                <p>Admin dapat:</p>
+                <ul>
+                    <li>Menambahkan eBook baru (upload file, cover, isi data buku)</li>
+                    <li>Mengubah data eBook (judul, deskripsi, kategori, dll.)</li>
+                    <li>Menghapus eBook dari sistem</li>
+                </ul>
+                <p>
+                    Fitur ini memastikan koleksi buku selalu terupdate dan relevan.
+                </p>
+
+                <h5 class="mt-4">🗂️ Manajemen Kategori (CRUD)</h5>
+                <p>Admin juga dapat mengelola kategori buku, meliputi:</p>
+                <ul>
+                    <li>Menambahkan kategori baru</li>
+                    <li>Mengubah nama kategori</li>
+                    <li>Menghapus kategori</li>
+                </ul>
+                <p>
+                    Dengan adanya pengelolaan kategori, sistem menjadi lebih terstruktur
+                    dan memudahkan proses pencarian buku oleh user.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- portfolio section -->
-    <section class="section" id="portfolio">
+    <section class="section" id="gambar">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Project Yang Telah Saya Kerjakan</h6>
+            <h6 class="section-title mb-6">Gambar</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
-                    <a href="ebook-001.php" class="portfolio-card">
+                    <a href="https://ebook-001.erinfn.my.id/" class="portfolio-card">
                         <img src="assets/imgs/E-Book.png" class="portfolio-card-img"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
