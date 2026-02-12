@@ -147,6 +147,17 @@
         </div>
     </section><!-- end of service section -->
 
+    <!-- service section -->
+    <section class="section" id="server">
+        <div class="container text-center">
+            <p class="section-subtitle">Datacenter ?</p>
+            <h6 class="section-title mb-0">Server Yang Saya Gunakan</h6>
+            <div class="container text-center mt-0">
+                <img src="assets/imgs/datacenter-erinfn.png" alt="Portfolio Banner" class="img-fluid rounded" style="max-width: 90%; height: auto;">
+            </div>
+        </div>
+    </section><!-- end of service section -->
+
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
@@ -191,7 +202,7 @@
                     </a>
                 </div>
             </div><!-- end of row -->
-            <br>
+            <br>`
             <div class="row">
                 <div class="col-md-4">
                     <a href="https://produksi-kue-001.erinfn.my.id/" class="portfolio-card">
@@ -231,6 +242,8 @@
                 </div>
             </div><!-- end of row -->
         </div><!-- end of container -->
+
+
     </section> <!-- end of portfolio section -->
 
     <!-- contact section -->
