@@ -56,8 +56,9 @@
             <h1 class="header-title">
                 <span class="down" style="font-size: 2.5rem;">Sistem E-Book SMP</span>
             </h1>
-            <a href="index.php#portfolio" class="btn btn-secondary">Kembali</a>
-            <a href="https://ebook-001.erinfn.my.id/" class="btn btn-primary" target="_blank">Demo Sistem</a>
+            <a href="index.php#portfolio" class="btn btn-secondary"><i class="ti-arrow-left"></i> Kembali</a>
+            <a href="#gambar" class="btn btn-warning"><i class="ti-image"></i> Screenshot</a>
+            <a href="https://ebook-001.erinfn.my.id/" class="btn btn-primary" target="_blank"><i class="ti-world"></i> Demo Sistem</a>
         </div>
     </header><!-- end of page header -->
 
@@ -300,6 +301,113 @@
                                 data-img="assets/imgs/ebook-001/mobile-user-biasa-detail.png">
                         </div>
                     </div>
+
+                    <hr>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Login</h5>
+                            <img src="assets/imgs/ebook-001/mobile-login.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-login.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Landing Page</h5>
+                            <img src="assets/imgs/ebook-001/mobile-login.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-login.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Daftar E-Book</h5>
+                            <img src="assets/imgs/ebook-001/mobile-daftar-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-daftar-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Tambah E-Book</h5>
+                            <img src="assets/imgs/ebook-001/mobile-tambah-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-tambah-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Ubah E-Book</h5>
+                            <img src="assets/imgs/ebook-001/mobile-edit-ebook.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-edit-ebook.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Daftar Kategori</h5>
+                            <img src="assets/imgs/ebook-001/mobile-daftar-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-daftar-kategori.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Tambah Kategori</h5>
+                            <img src="assets/imgs/ebook-001/mobile-tambah-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-tambah-kategori.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Admin Ubah Kategori</h5>
+                            <img src="assets/imgs/ebook-001/mobile-edit-kategori.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/ebook-001/mobile-edit-kategori.png">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

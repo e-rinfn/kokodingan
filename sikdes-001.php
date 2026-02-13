@@ -56,8 +56,9 @@
             <h1 class="header-title">
                 <span class="down" style="font-size: 2.5rem;">Sistem Pencatatan Data Desa</span>
             </h1>
-            <a href="index.php#portfolio" class="btn btn-secondary">Kembali</a>
-            <a href="https://sikdes-001.erinfn.my.id/" class="btn btn-primary" target="_blank">Demo Sistem</a>
+            <a href="index.php#portfolio" class="btn btn-secondary"><i class="ti-arrow-left"></i> Kembali</a>
+            <a href="#gambar" class="btn btn-warning"><i class="ti-image"></i> Screenshot</a>
+            <a href="https://sikdes-001.erinfn.my.id/" class="btn btn-primary" target="_blank"><i class="ti-world"></i> Demo Sistem</a>
         </div>
     </header><!-- end of page header -->
 
