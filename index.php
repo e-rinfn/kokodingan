@@ -178,7 +178,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://inventaris-001.erinfn.my.id/" class="portfolio-card">
+                    <a href="inventaris-001.php" class="portfolio-card">
                         <img class="portfolio-card-img" src="assets/imgs/inventaris.png" class="img-responsive rounded"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">

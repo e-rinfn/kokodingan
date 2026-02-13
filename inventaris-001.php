@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Website project Erin Fajrin Nugraha - Software Engineer">
+    <meta name="author" content="Devcrud">
+    <title>DESKRIPSI WEBSITE</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/IlustrasiMe2.png">
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">KOKODINGAN</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#gambar">Gambar</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#fitur">Fitur</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <!-- <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li> -->
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="down" style="font-size: 2.5rem;">Sistem Inventaris Barang SMP</span>
+            </h1>
+            <a href="index.php#portfolio" class="btn btn-secondary">Kembali</a>
+            <a href="https://inventaris-001.erinfn.my.id/" class="btn btn-primary" target="_blank">Demo Sistem</a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="deskripsi">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/inventaris.png" class="about-img" style="border: 2px solid #ffffff;"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <h2 class="section-title mb-3">Deskripsi</h2>
+                    <p class="text-start">
+                        Website Inventaris Barang merupakan sistem berbasis web yang dirancang untuk
+                        membantu pengelolaan data barang secara terstruktur, efisien, dan terpusat.
+                        Sistem ini digunakan untuk mencatat, memantau, serta mengontrol pergerakan barang
+                        dalam suatu organisasi atau perusahaan. Website ini memiliki satu aktor utama,
+                        yaitu Admin, yang memiliki hak akses penuh terhadap seluruh fitur pengelolaan
+                        data dan transaksi barang.
+                    </p>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="gambar">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">Gambar Screenshot Sistem</h6>
+            <ul class="nav nav-tabs justify-content-center mb-4" id="screenshotTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop" aria-selected="true">Desktop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">Mobile</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="screenshotTabContent">
+
+                <!-- Screenshot Desktop -->
+                <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop-tab">
+                    <!-- Screenshot desktop di sini -->
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Login</h5>
+                            <img src="assets/imgs/inventaris-001/admin-login.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/admin-login.png">
+                        </div>
+                    </div>
+
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Landing Page</h5>
+                            <img src="assets/imgs/inventaris-001/admin-landing.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/admin-landing.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/daftar-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/daftar-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Tambah Data Barang</h5>
+                            <img src="assets/imgs/inventaris-001/tambah-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/tambah-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Ubah Data Barang</h5>
+                            <img src="assets/imgs/inventaris-001/edit-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/edit-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Kategori</h5>
+                            <img src="assets/imgs/inventaris-001/kategori-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/kategori-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Masuk</h5>
+                            <img src="assets/imgs/inventaris-001/data-barang-masuk.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/data-barang-masuk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Keluar</h5>
+                            <img src="assets/imgs/inventaris-001/data-barang-keluar.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/data-barang-keluar.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Kembali</h5>
+                            <img src="assets/imgs/inventaris-001/data-barang-kembali.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/data-barang-kembali.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Hilang</h5>
+                            <img src="assets/imgs/inventaris-001/data-barang-hilang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/data-barang-hilang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Laporan Stok Barang</h5>
+                            <img src="assets/imgs/inventaris-001/laporan-stok-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/laporan-stok-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Laporan Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/laporan-inventaris-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/laporan-inventaris-barang.png">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot Mobile -->
+                <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+                    <!-- Screenshot mobile di sini -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Landing</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-landing.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-landing.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Filter Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-filter.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-filter.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">User Biasa Detail Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-detail.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-detail.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of portfolio section -->
+
+    <!-- contact section -->
+    <section class="section" id="fitur">
+        <div class="container text-start">
+            <h6 class="section-title mb-5">Fitur Pada Sistem</h6>
+
+            <!-- User Biasa -->
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h3>Tujuan</h3>
+                    <p>
+                        Tujuan dari sistem inventaris barang ini adalah untuk menyediakan platform yang mudah diakses bagi pengguna
+                        untuk mencari, membaca, dan mengelola data barang. Sistem ini bertujuan untuk:
+                    </p>
+                    <ul>
+                        <li>Meningkatkan efisiensi pengelolaan aset</li>
+                        <li>Mengurangi kesalahan pencatatan manual</li>
+                        <li>Mempermudah monitoring stok barang</li>
+                        <li>Menyediakan laporan yang akurat dan terstruktur</li>
+                        <li>Mendukung pengambilan keputusan berbasis data</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Admin -->
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3>Admin</h3>
+                    <p>
+                        Admin bertanggung jawab dalam pengelolaan seluruh data
+                        inventaris serta pencatatan transaksi barang. Admin memiliki
+                        akses penuh terhadap seluruh fitur sistem.
+                    </p>
+
+                    <h5 class="mt-4">📦 CRUD Data Barang</h5>
+                    <p>Admin dapat:</p>
+                    <ul>
+                        <li>Menambahkan data barang baru</li>
+                        <li>Mengubah informasi barang</li>
+                        <li>Menghapus data barang</li>
+                        <li>Melihat daftar seluruh barang</li>
+                    </ul>
+                    <p>
+                        Fitur ini memastikan koleksi barang selalu terupdate dan relevan.
+                    </p>
+
+                    <h5 class="mt-4">🗂️ CRUD Kategori Barang</h5>
+                    <p>Admin juga dapat mengelola kategori barang, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan kategori baru</li>
+                        <li>Mengubah nama kategori</li>
+                        <li>Menghapus kategori</li>
+                        <li>Melihat daftar kategori</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan kategori, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian barang oleh user.
+                    </p>
+
+                    <h5 class="mt-4">📍 CRUD Lokasi</h5>
+                    <p>Admin juga dapat mengelola lokasi barang, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan lokasi baru</li>
+                        <li>Mengubah nama lokasi</li>
+                        <li>Menghapus lokasi</li>
+                        <li>Melihat daftar lokasi</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan lokasi, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian barang oleh user.
+                    </p>
+
+                    <h5 class="mt-4">📥 Input Stok Barang Masuk</h5>
+                    <p>Admin juga dapat mengelola stok barang masuk, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan stok barang baru</li>
+                        <li>Mengubah jumlah stok barang</li>
+                        <li>Menghapus data stok barang</li>
+                        <li>Melihat daftar stok barang</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan stok barang masuk, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian barang oleh user.
+                    </p>
+
+                    <h5 class="mt-4">📤 Input Barang Keluar</h5>
+                    <p>Admin juga dapat mengelola stok barang keluar, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan stok barang keluar</li>
+                        <li>Input peminjaman barang</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan stok barang keluar, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian barang oleh user.
+                    </p>
+
+                    <h5 class="mt-4">🔄 Input Barang Kembali</h5>
+                    <p>
+                        Digunakan untuk mencatat barang yang sebelumnya keluar (misalnya dipinjam) kemudian
+                        dikembalikan.Stok barang akan otomatis bertambah kembali sesuai jumlah yang dikembalikan.
+                    </p>
+
+
+                    <h5 class="mt-4">❌ Input Barang Hilang</h5>
+                    <p>
+                        Digunakan untuk mencatat barang yang hilang atau rusak berat
+                        sehingga tidak dapat digunakan lagi. Stok barang akan otomatis berkurang
+                        sesuai jumlah yang dinyatakan hilang.
+                    </p>
+
+                    <h5 class="mt-4">📑 Laporan Inventaris Barang</h5>
+                    <p>Laporan Inventaris mencakup:</p>
+                    <ul>
+                        <li>Data lengkap seluruh barang</li>
+                        <li>Riwayat transaksi barang masuk dan keluar</li>
+                        <li>Riwayat barang kembali dan hilang</li>
+                        <li>Rekap per periode tertentu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+
+            <a href="https://www.instagram.com/erinfajrinnugraha/"
+                target="_blank"
+                class="btn btn-outline-primary btn-lg rounded">
+                <i class="ti ti-brand-instagram"></i> Contact via Instagram
+            </a>
+
+            <p class="mt-3 text-muted">
+                Klik tombol di atas untuk menghubungi saya melalui Instagram
+            </p>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <!-- <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://www.devcrud.com">DevCRUD</a> Distribution <a
+                    href="https://themewagon.com">ThemeWagon</a>
+            </p> -->
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="mailto:erinfajrinnugraha@gmail.com?subject=Halo&body=Hai Erin," class="link">
+                    <i class="ti-google"></i>
+                </a>
+                <a href="https://www.instagram.com/erinfajrinnugraha/" target="_blank" class="link">
+                    <i class="ti-instagram"></i>
+                </a>
+
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+    <!-- Modal untuk preview gambar -->
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body text-center p-0">
+                    <img id="modalImage" src="" class="img-fluid rounded" style="max-height:90vh;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#imgModal').on('show.bs.modal', function(event) {
+            var img = $(event.relatedTarget);
+            var src = img.data('img');
+            var modal = $(this);
+            modal.find('#modalImage').attr('src', src);
+        });
+    </script>
+
+</body>
+
+</html>
