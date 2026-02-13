@@ -185,6 +185,19 @@
 
                     <div class="row justify-content-center">
                         <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Lokasi</h5>
+                            <img src="assets/imgs/inventaris-001/lokasi-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="border: 2px solid #000;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/lokasi-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
                             <h5 class="mb-2">Daftar Barang Masuk</h5>
                             <img src="assets/imgs/inventaris-001/data-barang-masuk.png"
                                 alt="Screenshot Sistem Inventaris Barang"
@@ -267,40 +280,170 @@
                     <!-- Screenshot mobile di sini -->
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">User Biasa Landing</h5>
-                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-landing.png"
+                            <h5 class="mb-2">Login</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-login.png"
                                 alt="Screenshot Sistem Inventaris Barang"
                                 class="img-fluid rounded shadow mb-4"
                                 style="max-height: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
-                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-landing.png">
+                                data-img="assets/imgs/inventaris-001/mobile-login.png">
                         </div>
                     </div>
 
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">User Biasa Filter Inventaris Barang</h5>
-                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-filter.png"
+                            <h5 class="mb-2">Landing Page</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-landing.png"
                                 alt="Screenshot Sistem Inventaris Barang"
                                 class="img-fluid rounded shadow mb-4"
                                 style="max-height: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
-                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-filter.png">
+                                data-img="assets/imgs/inventaris-001/mobile-landing.png">
                         </div>
                     </div>
 
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">User Biasa Detail Inventaris Barang</h5>
-                            <img src="assets/imgs/inventaris-001/mobile-user-biasa-detail.png"
+                            <h5 class="mb-2">Daftar Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-daftar-barang.png"
                                 alt="Screenshot Sistem Inventaris Barang"
                                 class="img-fluid rounded shadow mb-4"
                                 style="max-height: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
-                                data-img="assets/imgs/inventaris-001/mobile-user-biasa-detail.png">
+                                data-img="assets/imgs/inventaris-001/mobile-daftar-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Tambah Data Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-tambah-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-tambah-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Ubah Data Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-edit-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-edit-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Kategori</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-daftar-kategori.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-daftar-kategori.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Lokasi</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-daftar-lokasi.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-daftar-lokasi.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Masuk</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-barang-masuk.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-barang-masuk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Keluar</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-barang-keluar.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-barang-keluar.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Kembali</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-barang-kembali.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-barang-kembali.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Daftar Barang Hilang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-barang-hilang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-barang-hilang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Laporan Stok Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-laporan-stok-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-laporan-stok-barang.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Laporan Inventaris Barang</h5>
+                            <img src="assets/imgs/inventaris-001/mobile-laporan-inventaris-barang.png"
+                                alt="Screenshot Sistem Inventaris Barang"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/inventaris-001/mobile-laporan-inventaris-barang.png">
                         </div>
                     </div>
                 </div>
