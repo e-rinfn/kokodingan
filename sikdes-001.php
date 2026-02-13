@@ -74,9 +74,13 @@
                 <div class="about-caption">
                     <h2 class="section-title mb-3">Deskripsi</h2>
                     <p class="text-start">
-                        Website eBook merupakan sistem berbasis web yang dirancang untuk memudahkan pengguna dalam mencari, membaca,
-                        dan mengelola buku digital secara online. Sistem ini memiliki dua jenis aktor utama, yaitu User Biasa dan Admin,
-                        dengan hak akses dan fungsi yang berbeda sesuai perannya.
+                        Website Sistem Pencatatan Data Desa merupakan sistem berbasis web yang dirancang
+                        untuk membantu pemerintah desa dalam mengelola dan mendokumentasikan data
+                        administrasi desa secara terstruktur, terpusat, dan terdigitalisasi. Sistem ini
+                        memudahkan proses pencatatan data kependudukan, kondisi rumah warga, informasi umum
+                        desa, serta pengelolaan surat masuk dan surat keluar. Dengan adanya sistem ini, proses
+                        administrasi desa menjadi lebih cepat, akurat, dan efisien. Website ini memiliki satu
+                        aktor utama, yaitu Admin, yang memiliki hak akses penuh terhadap seluruh fitur sistem.
                     </p>
                 </div>
             </div><!-- end of about wrapper -->
@@ -224,7 +228,7 @@
 
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">Konstrol Panel</h5>
+                            <h5 class="mb-2">Kontrol Panel</h5>
                             <img src="assets/imgs/sikdes-001/kontrol-panel.png"
                                 alt="Screenshot Sistem E-Book"
                                 class="img-fluid rounded shadow mb-4"
@@ -245,36 +249,129 @@
                             <img src="assets/imgs/sikdes-001/mobile-landing.png"
                                 alt="Screenshot Sistem E-Book"
                                 class="img-fluid rounded shadow mb-4"
-                                style="max-height: 400px;"
+                                style="max-width: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
                                 data-img="assets/imgs/sikdes-001/mobile-landing.png">
                         </div>
                     </div>
 
+                    <hr>
+
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">User Biasa Filter E-Book</h5>
-                            <img src="assets/imgs/sikdes-001/mobile-user-biasa-filter.png"
+                            <h5 class="mb-2">Login</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-login.png"
                                 alt="Screenshot Sistem E-Book"
                                 class="img-fluid rounded shadow mb-4"
                                 style="max-height: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
-                                data-img="assets/imgs/sikdes-001/mobile-user-biasa-filter.png">
+                                data-img="assets/imgs/sikdes-001/mobile-login.png">
                         </div>
                     </div>
 
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                            <h5 class="mb-2">User Biasa Detail E-Book</h5>
-                            <img src="assets/imgs/sikdes-001/mobile-user-biasa-detail.png"
+                            <h5 class="mb-2">Dashboard</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-dashboard.png"
                                 alt="Screenshot Sistem E-Book"
                                 class="img-fluid rounded shadow mb-4"
                                 style="max-height: 400px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
-                                data-img="assets/imgs/sikdes-001/mobile-user-biasa-detail.png">
+                                data-img="assets/imgs/sikdes-001/mobile-dashboard.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Data Kependudukan</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-data-penduduk.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-data-penduduk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Tambah Penduduk</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-tambah-penduduk.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-tambah-penduduk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Data Kondisi Rumah</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-kondisi-rumah.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-kondisi-rumah.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Klasifikasi Penduduk</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-klasifikasi-penduduk.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-klasifikasi-penduduk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Surat Masuk</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-surat-masuk.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-surat-masuk.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Surat Keluar</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-surat-keluar.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-surat-keluar.png">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <h5 class="mb-2">Kontrol Panel</h5>
+                            <img src="assets/imgs/sikdes-001/mobile-kontrol-panel.png"
+                                alt="Screenshot Sistem E-Book"
+                                class="img-fluid rounded shadow mb-4"
+                                style="max-height: 400px;"
+                                data-toggle="modal"
+                                data-target="#imgModal"
+                                data-img="assets/imgs/sikdes-001/mobile-kontrol-panel.png">
                         </div>
                     </div>
                 </div>
@@ -292,89 +389,85 @@
                 <div class="card-body">
                     <h3>Tujuan</h3>
                     <p>
-                        Tujuan dari sistem eBook ini adalah untuk menyediakan platform yang mudah diakses bagi pengguna
-                        untuk mencari, membaca, dan mengelola buku digital. Sistem ini bertujuan untuk:
+                        Tujuan dari sistem pencatatan data desa ini adalah untuk menyediakan platform yang mudah diakses
+                        bagi pengguna untuk mencari, membaca, dan mengelola data desa. Sistem ini bertujuan untuk:
                     </p>
                     <ul>
-                        <li>Mempermudah akses membaca buku digital</li>
-                        <li>Menyediakan sistem manajemen buku yang terorganisir</li>
-                        <li>Mendukung digitalisasi literasi</li>
-                        <li>Memberikan pengalaman membaca yang praktis dan efisien</li>
+                        <li>Mempermudah akses membaca data desa</li>
+                        <li>Menyediakan sistem manajemen data desa yang terorganisir</li>
+                        <li>Mempermudah pencarian data penduduk</li>
+                        <li>Mendukung transparansi dan efisiensi pelayanan desa</li>
                     </ul>
-                </div>
-            </div>
-
-            <!-- User Biasa -->
-            <div class="card mb-4 shadow-sm">
-                <div class="card-body">
-                    <h3>1. User Biasa</h3>
-                    <p>
-                        User biasa adalah pengguna umum yang memanfaatkan website untuk membaca eBook.
-                        Fitur yang tersedia bagi user biasa meliputi:
-                    </p>
-
-                    <h5 class="mt-4">🔎 Pencarian eBook</h5>
-                    <p>Pengguna dapat mencari buku berdasarkan:</p>
-                    <ul>
-                        <li>Judul</li>
-                        <li>Nama penulis</li>
-                        <li>Kategori</li>
-                        <li>Kata kunci tertentu</li>
-                    </ul>
-                    <p>
-                        Fitur pencarian membantu pengguna menemukan buku dengan cepat dan efisien.
-                    </p>
-
-                    <h5 class="mt-4">📖 Melihat Detail eBook</h5>
-                    <p>User dapat melihat informasi lengkap dari sebuah eBook, seperti:</p>
-                    <ul>
-                        <li>Judul buku</li>
-                        <li>Penulis</li>
-                        <li>Kategori</li>
-                        <li>Deskripsi / Sinopsis</li>
-                        <li>Cover buku</li>
-                        <li>Informasi tambahan lainnya</li>
-                    </ul>
-
-                    <h5 class="mt-4">📚 Membaca eBook</h5>
-                    <p>
-                        User dapat membaca eBook secara langsung melalui website tanpa perlu mengunduh file.
-                        Sistem dapat menampilkan eBook dalam format PDF viewer atau reader online
-                        agar nyaman digunakan.
-                    </p>
                 </div>
             </div>
 
             <!-- Admin -->
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h3>2. Admin</h3>
+                    <h3>Admin</h3>
                     <p>
-                        Admin bertanggung jawab dalam pengelolaan konten dan data yang ada di dalam sistem.
-                        Admin memiliki hak akses penuh terhadap manajemen eBook dan kategori.
+                        Admin merupakan petugas atau perangkat desa yang bertanggung jawab dalam
+                        mengelola seluruh data dan aktivitas pada sistem. Admin memiliki akses untuk
+                        menambah, mengubah, menghapus, serta melihat seluruh data yang tersimpan dalam
+                        sistem.
                     </p>
 
-                    <h5 class="mt-4">📘 Manajemen eBook (CRUD)</h5>
+                    <h5 class="mt-4">👥 CRUD Data Kependudukan</h5>
                     <p>Admin dapat:</p>
                     <ul>
-                        <li>Menambahkan eBook baru (upload file, cover, isi data buku)</li>
-                        <li>Mengubah data eBook (judul, deskripsi, kategori, dll.)</li>
-                        <li>Menghapus eBook dari sistem</li>
+                        <li>Menambahkan data penduduk baru</li>
+                        <li>Mengubah data penduduk yang sudah ada</li>
+                        <li>Menghapus data penduduk</li>
                     </ul>
                     <p>
-                        Fitur ini memastikan koleksi buku selalu terupdate dan relevan.
+                        Fitur ini memastikan data penduduk selalu terupdate dan relevan.
                     </p>
 
-                    <h5 class="mt-4">🗂️ Manajemen Kategori (CRUD)</h5>
-                    <p>Admin juga dapat mengelola kategori buku, meliputi:</p>
+                    <h5 class="mt-4">🏠 CRUD Data Kondisi Rumah</h5>
+                    <p>Admin juga dapat mengelola data kondisi rumah, meliputi:</p>
                     <ul>
-                        <li>Menambahkan kategori baru</li>
-                        <li>Mengubah nama kategori</li>
-                        <li>Menghapus kategori</li>
+                        <li>Menambahkan data kondisi rumah baru</li>
+                        <li>Mengubah data kondisi rumah yang sudah ada</li>
+                        <li>Menghapus data kondisi rumah</li>
                     </ul>
                     <p>
-                        Dengan adanya pengelolaan kategori, sistem menjadi lebih terstruktur
-                        dan memudahkan proses pencarian buku oleh user.
+                        Dengan adanya pengelolaan data kondisi rumah, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian data rumah oleh user.
+                    </p>
+
+                    <h5 class="mt-4">🌳 CRUD Data Desa</h5>
+                    <p>Admin dapat:</p>
+                    <ul>
+                        <li>Menambahkan desa baru</li>
+                        <li>Mengubah data desa yang sudah ada</li>
+                        <li>Menghapus data desa</li>
+                    </ul>
+                    <p>
+                        Fitur ini memastikan data desa selalu terupdate dan relevan.
+                    </p>
+
+                    <h5 class="mt-4">📥 Input Surat Masuk</h5>
+                    <p>Admin juga dapat mengelola data surat masuk, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan data surat masuk baru</li>
+                        <li>Mengubah data surat masuk yang sudah ada</li>
+                        <li>Menghapus data surat masuk</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan data surat masuk, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian data surat masuk oleh user.
+                    </p>
+
+                    <h5 class="mt-4">📤 Input Surat Keluar</h5>
+                    <p>Admin juga dapat mengelola data surat keluar, meliputi:</p>
+                    <ul>
+                        <li>Menambahkan data surat keluar baru</li>
+                        <li>Mengubah data surat keluar yang sudah ada</li>
+                        <li>Menghapus data surat keluar</li>
+                    </ul>
+                    <p>
+                        Dengan adanya pengelolaan data surat keluar, sistem menjadi lebih terstruktur
+                        dan memudahkan proses pencarian data surat keluar oleh user.
                     </p>
                 </div>
             </div>
