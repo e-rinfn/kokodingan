@@ -250,7 +250,7 @@
                             <img src="assets/imgs/sikdes-001/mobile-landing.png"
                                 alt="Screenshot Sistem E-Book"
                                 class="img-fluid rounded shadow mb-4"
-                                style="max-width: 400px;"
+                                style="max-width: 300px;"
                                 data-toggle="modal"
                                 data-target="#imgModal"
                                 data-img="assets/imgs/sikdes-001/mobile-landing.png">
